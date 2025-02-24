@@ -7,5 +7,5 @@ https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 Open cmd and copy and paste
 
 You need Admin to open CMD
-```cd (Location)```
-```dotnet build```
+```cd (Location)`
+dotnet build```
