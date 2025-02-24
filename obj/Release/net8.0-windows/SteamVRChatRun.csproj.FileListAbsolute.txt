@@ -1,0 +1,14 @@
+C:\Users\slimb\source\repos\SteamVRChatRun\bin\Release\net8.0-windows\SteamVRChatRun.exe
+C:\Users\slimb\source\repos\SteamVRChatRun\bin\Release\net8.0-windows\SteamVRChatRun.deps.json
+C:\Users\slimb\source\repos\SteamVRChatRun\bin\Release\net8.0-windows\SteamVRChatRun.runtimeconfig.json
+C:\Users\slimb\source\repos\SteamVRChatRun\bin\Release\net8.0-windows\SteamVRChatRun.dll
+C:\Users\slimb\source\repos\SteamVRChatRun\bin\Release\net8.0-windows\SteamVRChatRun.pdb
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.AssemblyInfoInputs.cache
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.AssemblyInfo.cs
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.csproj.CoreCompileInputs.cache
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.dll
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\refint\SteamVRChatRun.dll
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.pdb
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.genruntimeconfig.cache
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\ref\SteamVRChatRun.dll
