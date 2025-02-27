@@ -1,5 +1,7 @@
 # SteamVRChat
 
+Context, i made this because everytime i open VRChat first and then want to close it without SteamVR Closing, i always have to reopen SteamVR
+
 (This Application is in Alpha, this means that some functions may not work correctly, there is currently two bugs. the SteamVR start as first and the timer.)
 
 This Application starts when you open the executable
