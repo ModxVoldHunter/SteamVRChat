@@ -20,5 +20,5 @@ You need Admin to open CMD cd
 
 ```
 cd {FOLDERLOCATION}
-dotnet build SteamVRChatRun
+dotnet build
 ```
