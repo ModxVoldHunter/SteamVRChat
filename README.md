@@ -18,7 +18,7 @@ An Application that starts steamvr then vrchat in order for people who have Ocul
 
 Open cmd and copy and paste
 
-You need Admin to open CMD cd 
+You need Admin to open CMD
 
 ```
 cd {FOLDERLOCATION}
