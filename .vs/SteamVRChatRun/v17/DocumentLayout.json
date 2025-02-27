@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{33181C4D-1191-42B8-B2FE-22ADF461B72C}|SteamVRChatRun.csproj|c:\\users\\slimb\\source\\repos\\steamvrchatrun\\steamvrchatrun.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{33181C4D-1191-42B8-B2FE-22ADF461B72C}|SteamVRChatRun.csproj|solutionrelative:steamvrchatrun.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\slimb\\source\\repos\\SteamVRChatRun\\obj\\Release\\net8.0\\SteamVRChatRun.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Release\\net8.0\\SteamVRChatRun.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SteamVRChatRun.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\slimb\\source\\repos\\SteamVRChatRun\\obj\\Release\\net8.0\\SteamVRChatRun.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Release\\net8.0\\SteamVRChatRun.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\slimb\\source\\repos\\SteamVRChatRun\\obj\\Release\\net8.0\\SteamVRChatRun.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Release\\net8.0\\SteamVRChatRun.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T06:45:43.55Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\slimb\\source\\repos\\SteamVRChatRun\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T22:41:30.715Z",
               "EditorCaption": ""
@@ -36,15 +52,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SteamVRChatRun",
+              "Title": "SteamVRChatRun.csproj",
               "DocumentMoniker": "C:\\Users\\slimb\\source\\repos\\SteamVRChatRun\\SteamVRChatRun.csproj",
               "RelativeDocumentMoniker": "SteamVRChatRun.csproj",
               "ToolTip": "C:\\Users\\slimb\\source\\repos\\SteamVRChatRun\\SteamVRChatRun.csproj",
               "RelativeToolTip": "SteamVRChatRun.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-23T22:41:28.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T22:41:28.867Z"
             }
           ]
         }
