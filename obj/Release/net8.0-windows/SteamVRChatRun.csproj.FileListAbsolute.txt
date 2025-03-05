@@ -12,3 +12,6 @@ C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\refint\Ste
 C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.pdb
 C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.genruntimeconfig.cache
 C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\ref\SteamVRChatRun.dll
+C:\Users\slimb\source\repos\SteamVRChatRun\bin\Release\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRChatRun.csproj.AssemblyReference.cache
+C:\Users\slimb\source\repos\SteamVRChatRun\obj\Release\net8.0-windows\SteamVRC.7C959D89.Up2Date
