@@ -1,5 +1,4 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 namespace SteamVRChatRun
 {
@@ -7,47 +6,41 @@ namespace SteamVRChatRun
     {
         public static class Setup
         {
-            // Paths, the VRChat Path is for booting EAC for the game to start
-            public static string SteamVR = "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\bin\\win64\\vrdashboard.exe\"";
-            public static string VRChat = "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\VRChat\\start_protected_game.exe\"";
 
-            // Games Class
+            public static string SVR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\bin\\win64\\vrdashboard.exe";
+            public static string VRC = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\VRChat\\start_protected_game.exe";
             public class Games
             {
-                // SteamClient VR
-                public static void SteamVRClient(bool IsOpen, int clock)
+                public static bool IsOpen = false;
+                public static int clock = 30;
+                public static Process Process = new Process();
+                public static void RunClient()
                 {
-                    if (!IsOpen && clock > 30)
+                    if (IsOpen)
                     {
-                        Process.Start(SteamVR);
-                        Console.WriteLine(clock++);
-                    } else
-                    {
-                        Console.WriteLine($"SteamVR is already running");
-                    }
-                }
-
-                // SteamClient VR
-                public static void VRChatGame(bool IsOpen, int clock)
-                {
-                    if (!IsOpen && clock > 30)
-                    {
-                        Process.Start(VRChat);
-                        Console.WriteLine(clock++);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"VRChat is already running");
+                        
+                        Process.StartInfo.FileName = SVR;
+                        Process.Start();
+                        while (clock > 0)
+                        {
+                            Console.WriteLine(clock--);
+                            Thread.Sleep(1000); // Wait for 1 second
+                        }
+                        Process.StartInfo.FileName = VRC;
+                        Process.Start();
+                        while (clock > 0)
+                        {
+                            Console.WriteLine(clock--);
+                            Thread.Sleep(1000); // Wait for 1 second
+                        }
                     }
                 }
             }
         }
-        // This is where the main program runs
         static void Main(string[] args)
         {
-            Setup.Games.SteamVRClient(false, 0);
-            Setup.Games.VRChatGame(false, 0);
-            throw new Exception("SteamVR and VRChat are running.");
+            Setup.Games.IsOpen = true;
+            Setup.Games.RunClient();
         }
     }
 }
