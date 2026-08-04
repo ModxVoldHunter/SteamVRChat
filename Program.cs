@@ -4,30 +4,15 @@ namespace SteamVRChatRun
 {
     internal class Program
     {
-        public static interface BaseLauncher 
+        public static class Setup
         {
-            public abstract void initializeLauncher();
-        }
-
-
-        public static class Setup : BaseLauncher
-        {
-
-            public void initializeLauncher()
-            {
-                
-            }
-
 
             public static string SVR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\SteamVR\\bin\\win64\\vrdashboard.exe";
             public static string VRC = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\VRChat\\start_protected_game.exe";
-
-            public static string[] ListOfGames;
-
             public class Games
             {
                 public static bool IsOpen = false;
-                
+                public static int clock = 30;
                 public static Process Process = new Process();
                 public static void RunClient()
                 {
